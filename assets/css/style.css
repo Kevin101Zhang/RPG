@@ -1,0 +1,177 @@
+body{
+    background-image: url("https://i.imgur.com/xRRlX16.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#Logo{
+    right: 0%;
+    position: absolute;
+}
+.row{
+    text-align: center;
+
+}
+p{
+    color: white;
+    font-family: font-effect-3d;
+    text-shadow: 1px 1px gray;
+    font-size: 18px;
+}
+
+#chooseChar{
+    color: whitesmoke;
+    font-family: font-effect-3d;
+    text-shadow: 3px 3px black;
+    font-size: 90px;
+    margin-left: 125px;
+
+}
+
+.clickMe {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 12px;
+  }
+
+  audio{
+      right: 2.5%;
+      position: fixed;
+      z-index: 999;
+      bottom:2%;
+
+  }
+
+  .PlayNow{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 32px 60px;
+    text-align: center;
+    font-size: 36px;
+    margin: 4px 2px;
+    transition: 0.5s;
+    border-radius: 12px;
+    position: absolute;
+    right: 2.5%;
+    visibility: hidden;
+    top: 35%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  #Defenders{
+    visibility: hidden;
+    font-size: 50px;
+    color: whitesmoke;
+    display:inline;
+    margin-right: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+  #Battle{
+    visibility: hidden;
+    color: whitesmoke;
+    font-family: font-effect-3d;
+    text-shadow: 3px 3px black;
+    font-size: 90px;
+
+
+  }
+
+.battleMagician, .battleWarrior, .battleThief, .battleBowman{
+    visibility: hidden;
+    font-size: 30px;
+    color: black;
+    display:inline;
+    margin-right: 50px;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#vs{
+    display:inline;
+    visibility: hidden;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.character-image{
+    height: 187px;
+    width: 140px;
+}
+
+.BcharDiv,.WcharDiv,.McharDiv,.TcharDiv{
+    color: white;
+    font-size: 15px;
+}
+
+.attack{
+    color: black;
+    position: absolute;
+    right: 2.5%;
+    top: 28%;
+    display:inline;
+    font-size: 40px;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    visibility: hidden;
+    background-color:salmon;
+    padding:4% 6% 4% 6%;
+   
+}
+
+.opponent{
+    /* visibility: hidden; */
+    color: white;
+    position: absolute;
+    right:37%;
+    top:23%; 
+}
+
+.Reset{
+    right: 2.5%;
+    position: fixed;
+    bottom:8%;
+    border-radius: 12px;
+    font-family: serif;
+    color: salmon;
+    z-index: 998;
+    font-size: 32px;
+}
+
+#winningPage{
+    bottom: -17%;
+    left: 0%;
+    position: absolute;
+    font-size: 400px;
+    background-size: cover;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    visibility: hidden;
+    padding-bottom: 10%;
+    padding-right: 19%;
+    padding-top: 5%;
+}
+
+.inBattle{
+    width: 100%;
+    block-size: 80px;
+    background-color: black;
+    color: white;
+    font-size: 54px;
+    text-align: center;
+    top: 50%;
+    left: 0%;
+    position: absolute;
+    visibility: hidden;
+}

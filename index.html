@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Maplestory RPG Game</title>
+    <!-- Reset stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Reset-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=3d">
+    <!-- My Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <audio controls autoplay loop class="my_audio">
+        <source src="assets/audio/LoginMusic.mp3" type="audio/mpeg">
+        <source src="assets/audio/LoginMusic.mp3" type="audio/ogg">
+    </audio>
+
+
+</head>
+
+<body>
+
+    <header>
+        <title>Maplestory RPG Game</title>
+    </header>
+    <div class="row"><img id="Logo" src="assets/images/MapleStoryLogo.png"></div>
+
+    <!-- <input id="clickMe" type="button" value="Click to Play / New Game" onclick="newGame();" /> -->
+
+    <br><br><br>
+    <h1 id="chooseChar">Choose Your Character</h1>
+    <br><br>
+
+    <!-- Bowman -->
+    <div class="row">
+        <div class="col-md-2 Bowman"><span class="Bimage"><img src="assets/images/Bowman.png" height="187" width="140"></div></span>
+        <div class="BcharDiv"></div>
+        <div class="col-md-2 Bowman">
+            <p>Bowmen are nimble, long-range snipers. They have a variety of skills to help attack, evade danger, buff
+                their damage, and launch arrows at groups of monsters. They can attack an enemy horde with arrow
+                barrages.</p>
+            <input class="clickMe" type="button" value="Click to Play as Bowman" data-character="Bowman">
+        </div>
+    
+        <!-- Warrior -->
+        <div class="col-md-2 Warrior"><span class="Wimage"><img src="assets/images/Warrior.png" height="187" width="120"></div></span>
+        <div class="WcharDiv"></div>
+        <div class="col-md-2 Warrior">
+            <p>Warrior excels at defense, with large amounts of health and access to powerful suits of armor.
+                These strengths help keep the Warrior protected when engaged in close-quarters combat against hordes of
+                monsters.</p>
+            <input class="clickMe" type="button" value="Click to Play as Warrior" data-character="Warrior">
+        </div>
+    </div>
+    <br><br>
+    <!-- Magician -->
+    <div class="row">
+        <div class="col-md-2 Magician"><span class="Mimage"><img src="assets/images/Magician.png" height="197" width="180"></div></span>
+        <div class="McharDiv"></div>
+        <div class="col-md-2 Magician">
+            <p>The Magician is a powerful magic-user that can obliterate enemies from afar with
+                devastating spells. The Magician specializes in casting all forms of elemental or supportive skills
+                from a distance.</p>
+            <input class="clickMe" type="button" value="Click to Play as Magician" data-character="Magician">
+        </div>
+
+        <!-- Thief -->
+        <div class="col-md-2 Thief"><span class="Timage"><img src="assets/images/Thief.png" height="177" width="140"></div></span>
+        <div class="TcharDiv"></div>
+        <div class="col-md-2 Thief">
+            <p>Thief are skilled at dodging attacks and are particularly fond of stealth, using their abilities to
+                evade
+                enemies or hide from them entirely. A Thief can slip past enemies unnoticed, or get into position for a
+                sneak attack.</p>
+            <input class="clickMe" type="button" value="Click to Play as Thief" data-character="Thief">
+        </div>
+    </div>
+
+    <input class="PlayNow" type="button" value="START GAME">
+    <div id="Defenders">Defenders:
+        <input class="battleBowman" type="button" value="Battle Bowman">
+        <input class="battleWarrior" type="button" value="Battle Warrior">
+        <input class="battleMagician" type="button" value="Battle Magician">
+        <input class="battleThief" type="button" value="Battle Thief">
+    </div>
+    
+    <input class="Reset" type="button" value="Restart Game">
+    <br><br>
+    <div id="empty0" class="stat0"></div>
+    <div id="empty1" class="stat1"></div> 
+    <div id="empty2" class="stat2"></div>
+    <div id="empty3" class="stat3"></div>
+    <div class="inBattle">In Battle</div> 
+    <div id="winningPage">YOU WIN</div>
+
+    <input class="attack" type="button" value="Attack">
+    <div class="opponent"></div>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Game logic -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
