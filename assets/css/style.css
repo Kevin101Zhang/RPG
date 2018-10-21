@@ -5,14 +5,17 @@ body{
     margin-top: 2%;
     margin-left: 5%;
 }
+
 #Logo{
     right: 0%;
     position: absolute;
 }
+
 .row{
     text-align: center;
 
 }
+
 p{
     color: white;
     font-family: font-effect-3d;
@@ -39,17 +42,16 @@ p{
     margin: 4px 2px;
     transition: 0.3s;
     border-radius: 12px;
-  }
+}
 
-  audio{
+audio{
       right: 2.5%;
       position: fixed;
       z-index: 999;
       bottom:2%;
+}
 
-  }
-
-  .PlayNow{
+.PlayNow{
     background-color: #ddd;
     border: none;
     color: black;
@@ -64,27 +66,24 @@ p{
     visibility: hidden;
     top: 35%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+}
 
-  #Defenders{
+#Defenders{
     visibility: hidden;
     font-size: 50px;
     color: whitesmoke;
     display:inline;
     margin-right: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
-  }
-
-  #Battle{
+#Battle{
     visibility: hidden;
     color: whitesmoke;
     font-family: font-effect-3d;
     text-shadow: 3px 3px black;
     font-size: 90px;
-
-
-  }
+}
 
 .battleMagician, .battleWarrior, .battleThief, .battleBowman{
     visibility: hidden;
@@ -149,7 +148,7 @@ p{
 }
 
 #winningPage{
-    bottom: -17%;
+    bottom: -34%;
     left: 0%;
     position: absolute;
     font-size: 400px;
@@ -165,12 +164,12 @@ p{
 
 .inBattle{
     width: 100%;
-    block-size: 80px;
+    block-size: 100px;
     background-color: black;
     color: white;
     font-size: 54px;
     text-align: center;
-    top: 50%;
+    top: 54%;
     left: 0%;
     position: absolute;
     visibility: hidden;
