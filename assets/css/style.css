@@ -148,18 +148,19 @@ audio{
 }
 
 #winningPage{
-    bottom: -34%;
+    bottom: -23%;
     left: 0%;
     position: absolute;
     font-size: 400px;
     background-size: cover;
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blueviolet;
+    color: gold;
     visibility: hidden;
     padding-bottom: 10%;
     padding-right: 19%;
     padding-top: 5%;
+    text-align: center;
 }
 
 .inBattle{
